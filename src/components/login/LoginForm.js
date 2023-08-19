@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import FBlogo from "../../images/fb-logo.png";
 import { generateMedia } from 'styled-media-query';
 
-const regexp = RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2, 3})+$/);
-
+const regexp = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 const initState = {
     checked: true,
     email: '',
