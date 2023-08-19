@@ -5,6 +5,7 @@ import FBlogo from "../../images/fb-logo.png";
 import { generateMedia } from 'styled-media-query';
 
 const regexp = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+
 const initState = {
     checked: true,
     email: '',
